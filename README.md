@@ -1,4 +1,4 @@
-Demo url - https://sandeep066.github.io/ts-grid-lights
+Demo url -- https://sandeep066.github.io/ts-grid-lights
 
 # Getting Started with Create React App
 
