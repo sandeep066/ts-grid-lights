@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ts-grid-lights/static/css/main.b729a009.css",
+    "main.js": "/ts-grid-lights/static/js/main.785443d0.js",
+    "static/js/592.6fa2035e.chunk.js": "/ts-grid-lights/static/js/592.6fa2035e.chunk.js",
+    "index.html": "/ts-grid-lights/index.html",
+    "main.b729a009.css.map": "/ts-grid-lights/static/css/main.b729a009.css.map",
+    "main.785443d0.js.map": "/ts-grid-lights/static/js/main.785443d0.js.map",
+    "592.6fa2035e.chunk.js.map": "/ts-grid-lights/static/js/592.6fa2035e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b729a009.css",
+    "static/js/main.785443d0.js"
+  ]
+}
