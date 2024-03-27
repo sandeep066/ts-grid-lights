@@ -47,16 +47,16 @@ function useGrids(initial) {
   return [grids, handleClick];
 }
 
+function getGridItemClass(grid) {
+  return classNames({
+    "grid-item": true,
+    hide: grid.isVisible,
+    green: grid.isGreen,
+  });
+}
+
 const GridLights = () => {
   const [grids, handleClick] = useGrids(initialGrids);
-
-  function getGridItemClass(grid) {
-    return classNames({
-      "grid-item": true,
-      hide: grid.isVisible,
-      green: grid.isGreen,
-    });
-  }
 
   return (
     <div className="grid-container">
