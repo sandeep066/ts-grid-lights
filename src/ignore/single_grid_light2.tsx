@@ -29,7 +29,7 @@ const GridLights = () => {
             };
             return newGrids;
           });
-        }, index * 1000);
+        }, (index + 1) * 1000);
       });
     }
   }, [grids]);
