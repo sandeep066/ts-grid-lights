@@ -49,18 +49,21 @@ function useGrids(initial) {
 const GridLights = () => {
   const [grids, handleClick] = useGrids(initialGrids);
 
+  function getGridItemClass(grid) {
+    return classNames({
+      "grid-item": true,
+      hide: grid.id === 4 || grid.id === 5,
+      green: grid.isGreen,
+    });
+  }
+
   return (
     <div className="grid-container">
       {grids.map((grid, index) => {
-        const gridItemClass = classNames({
-          "grid-item": true,
-          hide: grid.id === 4 || grid.id === 5,
-          green: grid.isGreen,
-        });
         return (
           <span
             key={index}
-            className={gridItemClass}
+            className={getGridItemClass(grid)}
             onClick={() => handleClick(grid.id)}
           >
             {index}
