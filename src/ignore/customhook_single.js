@@ -1,3 +1,4 @@
+//"classnames": "2.5.1"
 import React, { useState, useEffect } from "react";
 import classNames from "classnames";
 import "./styles.css";
@@ -52,7 +53,7 @@ const GridLights = () => {
   function getGridItemClass(grid) {
     return classNames({
       "grid-item": true,
-      hide: grid.id === 4 || grid.id === 5,
+      hide: grid.isVisible,
       green: grid.isGreen,
     });
   }
